@@ -68,12 +68,13 @@ def main():
     """,
     unsafe_allow_html=True
     )
-        [theme]
-        primaryColor = "#4CAF50"
-        backgroundColor = "#FFFFFF"
-        secondaryBackgroundColor = "#F0F2F6"
-        textColor = "#262730"
-        font = "sans serif"
+    [theme]
+    primaryColor = "#4CAF50"
+    backgroundColor = "#FFFFFF"
+    secondaryBackgroundColor = "#F0F2F6"
+    textColor = "#262730"
+    font = "sans serif"
+    
     st.image("https://via.placeholder.com/150", width=150)  # Replace with your logo URL
     st.title("News Detection")
     with open('random_forest_model.pkl', 'rb') as model_file:
