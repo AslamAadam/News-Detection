@@ -13,6 +13,14 @@ st.set_page_config(
     layout="wide",  # Optional: "centered" or "wide"
     initial_sidebar_state="expanded"  # Optional: "auto", "expanded", or "collapsed"
 )
+st.markdown(
+    """
+    <h1 style='text-align: center; color: #4CAF50;'>
+        📰 News Detection App
+    </h1>
+    """,
+    unsafe_allow_html=True
+)
     st.title("News Detection")
     with open('random_forest_model.pkl', 'rb') as model_file:
         model = pickle.load(model_file)
