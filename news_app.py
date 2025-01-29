@@ -30,11 +30,11 @@ def main():
     unsafe_allow_html=True,
     )
     with st.sidebar:
-    st.header("About")
-    st.write("This app detects whether a news article is real or fake using a machine learning model.")
-    st.write("Enter the news text in the text area and click 'Analyze' to see the result.")
-    st.markdown("---")
-    st.write("Developed by [Your Name]"
+        st.header("About")
+        st.write("This app detects whether a news article is real or fake using a machine learning model.")
+        st.write("Enter the news text in the text area and click 'Analyze' to see the result.")
+        st.markdown("---")
+        st.write("Developed by [Your Name]"
         )
     st.markdown("---")
     st.markdown(
