@@ -6,7 +6,7 @@ import time
 
 import streamlit as st
 
-def main()
+def main():
 st.set_page_config(
     page_title="News Detection App",
     page_icon="📰",  # You can use emojis or a URL to an image
