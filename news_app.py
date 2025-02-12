@@ -6,7 +6,7 @@ import time
 def main():
     st.set_page_config(
         page_title="News Detection App",
-        page_icon="📰",  # You can use emojis or a URL to an image
+        page_icon="https://www.flaticon.com/free-icon/news_2537926",  # You can use emojis or a URL to an image
         layout="centered",  # Optional: "centered" or "wide"
         initial_sidebar_state="expanded"  # Optional: "auto", "expanded", or "collapsed"
     )
