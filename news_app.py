@@ -1,4 +1,3 @@
-# -*- coding: utf-8 -*-
 # Streamlit deployment code
 import streamlit as st
 import pickle
@@ -8,7 +7,7 @@ def main():
     st.set_page_config(
         page_title="News Detection App",
         page_icon="📰",  # You can use emojis or a URL to an image
-        layout="wide",  # Optional: "centered" or "wide"
+        layout="centered",  # Optional: "centered" or "wide"
         initial_sidebar_state="expanded"  # Optional: "auto", "expanded", or "collapsed"
     )
     st.markdown(
